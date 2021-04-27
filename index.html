@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <input type="text" class="city" placeholder="Your Location" />
+        <button class="sub"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="error">City can't be found</div>
+      <div class="output">
+        <div class="result">
+          <div class="loca">-</div>
+          <div class="tem-stat">
+            <div class="NOW">
+              <img src="" style="" class="imgs" alt="" />
+              <div class="temperature">°C</div>
+            </div>
+
+            <div class="status"></div>
+            <div class="hum">Humidity :</div>
+            <div class="wind">Wind speed :</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
